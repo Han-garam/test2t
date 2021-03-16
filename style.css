@@ -44,7 +44,6 @@ body {
 
 .main-con {
     color: #FF4646;
-    list-style: none;
     font-size: 25px;
     margin-bottom: 40px;
     text-indent: 30px;
@@ -52,17 +51,22 @@ body {
 
 .main-con-flus {
     color: #FF4646;
-    list-style: none;
     font-size: 25px;
     text-indent: 55px;
 }
 
 .side-con {
-    list-style: none;
     font-size: 25px;
 }
 
-.side-con::marker {
+.side-con-min {
+    font-size: 25px;
+}
+
+.side-con-min::marker,
+.side-con::marker,
+.main-con,
+.main-con-flus {
     display: none;
 }
 
