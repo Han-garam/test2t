@@ -61,6 +61,7 @@ body {
 
 .side-con-min {
     font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .side-con-min::marker,
