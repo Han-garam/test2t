@@ -65,8 +65,8 @@ body {
 
 .side-con-min::marker,
 .side-con::marker,
-.main-con,
-.main-con-flus {
+.main-con::marker,
+.main-con-flus::marker {
     display: none;
 }
 
